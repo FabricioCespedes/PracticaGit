@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="conte">
+            <h1>Calculadora B&aacute;sica </h1>
+        </div>
+    </header>
+    <main>
+        <p class="p">Ingresa el n&uacute;mero y has el c&aacute;lculo</p>
+        <div class="conte1">
+            <section class="sec sec--mod1">
+                <section class="sec2">
+                    <label for="num1">Num 1</label>
+                    <input type="number" name="" id="num1" value="0" required>
+                </section>
+                <section class="sec3">
+                    <label for="num2">Num 2</label>
+                    <input type="number" name="" id="num2" value="0" required>
+                </section>
+                <section class="sec4">
+                    <input class="enter" type="submit" value="Sumar" onclick="mostrarSuma()">
+                    <p class="resul">Resultado= <output id="suma" for="num1 num2"></output></p>
+                </section>
+            </section>
+            <section class="sec sec--mod">
+                <section class="sec2">
+                    <label for="num1">Num 1</label>
+                    <input type="number" name="" id="num1" value="0" required>
+                </section>
+                <section class="sec3">
+                    <label for="num2">Num 2</label>
+                    <input type="number" name="" id="num2" value="0" required>
+                </section>
+                <section class="sec4">
+                    <input class="enter"  type="submit" value="Dividir" onclick="mostrarDividi()">
+                   <p class="resul">Resultado= <output id="suma" for="num1 num2"></output></p>
+                </section>
+            </section>
+            <section class="sec">
+                <section class="sec2">
+                    <label for="num1">Num 1</label>
+                    <input type="number" name="" id="num1" value="0" required>
+                </section>
+                <section class="sec3">
+                    <label for="num2">Num 2</label>
+                    <input  type="number" name="" id="num2" value="0" required>
+                </section>
+                <section class="sec4">
+                    <input class="enter"  type="submit" value="Multiplicar" onclick="mostrarMulti()">
+                   <p class="resul">Resultado= <output id="suma" for="num1 num2"></output></p>
+                </section>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>S&iacute;gueme para m&aacute;s retos!</p>
+    </footer>
+</body>
+</html>

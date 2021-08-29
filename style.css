@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    min-width: 270px;
+    margin-top: 5%;
+    
+}
+
+.container
+{
+    background-color: green;
+    visibility: hidden;
+}
+header,main,footer
+{
+    width: 90%;
+    margin: auto;
+    border: solid lightslategrey  1px;
+}
+
+h1{
+    text-align: center;
+    padding: 5%;
+    font-size: 1.5rem;
+    color: black;
+
+}
+.sec{
+    width: 100%;
+}
+.p{
+    display: none;
+}
+.sec
+{
+    border: solid lightslategrey 0.1px;
+    display: grid;
+    grid-template-areas:
+    "sec2 sec4"
+    "sec3 sec4";
+    justify-items: center;
+    align-items: center;
+    
+}
+input
+{
+    width: 40%;
+}
+.sec2
+{
+    grid-area: sec2;
+    width: 100%;
+    height: 50px;
+    padding: 10%;
+}
+.sec3
+{
+    grid-area: sec3;
+    width: 100%;
+    height: 50px;
+    padding: 10%;
+}
+.sec4
+{
+    grid-area: sec4;
+    width: 40vw;
+    height: 100px;
+}
+.sec--mod1
+{
+    margin-bottom: 4%;
+    border-top: none;
+
+}
+.sec--mod
+{
+    margin-bottom: 4%;
+}
+.enter
+{
+    width:70px;
+    position: relative;
+    right: 30px;
+}
+.sec4
+{
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+.resul
+{
+    margin-top: 7vh;
+    position: relative;
+    right: 30px;
+}
+footer
+{
+    font-weight: bold;
+    font-size: 1rem;
+    color: grey;
+    text-align: center;
+    padding: 5%;
+    margin: auto;
+}
+@media (min-width:700px){
+    .p{
+        display: block;
+        text-align: center;
+        margin-top: 2%;
+    }
+    header,main,footer
+    {
+        width: 60%;
+        margin: auto;
+        border: solid lightslategrey  1px;
+    }
+    .conte1
+    {
+        display: flex;
+        flex-flow: row;
+        gap: 3rem;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .sec
+    {
+        border: solid lightslategrey 0.1px;
+        display: flex;
+        flex-flow: column;
+        justify-items: center;
+        align-items: center;
+        width: 13vw;
+        height: 40vh;
+    }
+    footer
+    {
+        margin-bottom:5%;
+    }
+}
