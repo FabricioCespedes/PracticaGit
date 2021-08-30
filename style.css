@@ -97,7 +97,7 @@ input
 }
 .resul
 {
-    margin-top: 7vh;
+    margin-top: 5vh;
     position: relative;
     right: 30px;
 }
@@ -110,7 +110,7 @@ footer
     padding: 5%;
     margin: auto;
 }
-@media (min-width:700px){
+@media (min-width:600px){
     .p{
         display: block;
         text-align: center;
@@ -144,4 +144,22 @@ footer
     {
         margin-bottom:5%;
     }
+
+    @media only screen and (min-width: 600px) {
+            .enter{
+                right: 0px;
+                background-color: darkorange;
+                color: black;
+                border:lightslategrey 1px solid ;
+            }
+
+            .resul{
+                right: 0px;
+                width: 25%;
+            }
+      }
+    
+    
+
+
 }
